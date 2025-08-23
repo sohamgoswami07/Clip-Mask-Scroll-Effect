@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.mask-img {
+  mask-image: url('/clip\ \(2\).png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: cover;
+  mask-size: 25%;
+}

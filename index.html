@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clip Mask Scroll Effect</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+
+  <body class="relative bg-black w-screen h-auto text-white m-0 p-0 overflow-x-hidden">
+    
+    <div class="outer-layer relative h-dvh w-full text-center flex flex-col items-center justify-center z-10">
+      <h1 class="will-fade text-3xl md:text-6xl">Clip Mask Scroll Effect</h1>
+      <div class="mask-img relative h-[70dvh] w-[90dvw] m-4">
+        <img class="background-img absolute size-full object-contain" src="/image.jpg" alt="">
+      </div>
+      <p class="text-lg will-fade">Scroll down to see the effect</p>
+      <div class="masked-container opacity-0 p-2">
+        <h1>Save the animals</h1>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
