@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       end: "bottom center",
       scrub: 1.5,
       pin: true,
-      markers: true,
+      markers: false,
     },
   })
 
