@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   .to(".mask-img", {
     scale: 1.2,
     maskPosition: "center",
-    maskSize: '400%',
+    maskSize: '500%',
     duration: 1,
     ease: "power1.inOut",
   })
