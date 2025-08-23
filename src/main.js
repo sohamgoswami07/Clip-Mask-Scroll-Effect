@@ -3,17 +3,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Check if we're on mobile (vanilla JS equivalent of useMediaQuery)
-const isMobile = window.innerWidth <= 768;
-
 // Wait for DOM to be loaded (vanilla JS equivalent of useGSAP)
-document.addEventListener('DOMContentLoaded', () => {
-  const start = isMobile ? 'top 20%' : 'top top';
-  
+document.addEventListener('DOMContentLoaded', () => {  
   const tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".outer-layer",
-      start: start,
+      start: "top top",
       end: "bottom center",
       scrub: 1.5,
       pin: true,
@@ -29,12 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
   .to(".mask-img", {
     scale: 1.2,
     maskPosition: "center",
-    maskSize: '500%',
+    maskSize: '750%',
     duration: 1,
     ease: "power1.inOut",
   })
   .to(".masked-container", {
-    opacity: 1,
+    opacity: 0.75,
     duration: 1,
     ease: "power1.inOut",
   })

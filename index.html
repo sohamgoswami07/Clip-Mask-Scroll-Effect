@@ -7,19 +7,33 @@
     <link rel="stylesheet" href="/src/style.css">
   </head>
 
-  <body class="relative bg-black w-screen h-auto text-white m-0 p-0 overflow-x-hidden">
-    
+  <body>
+
     <div class="outer-layer relative h-dvh w-full text-center flex flex-col items-center justify-center z-10">
-      <h1 class="will-fade text-3xl md:text-6xl">Clip Mask Scroll Effect</h1>
-      <div class="mask-img relative h-[70dvh] w-[90dvw] m-4">
-        <img class="background-img absolute size-full object-contain" src="/image.jpg" alt="">
-      </div>
-      <p class="text-lg will-fade">Scroll down to see the effect</p>
-      <div class="masked-container opacity-0 p-2">
+
+      <!-- Main Heading -->
+      <h1 class="absolute will-fade text-3xl sm:text-4xl md:text-6xl lg:text-8xl opacity-75">
+        Clip Mask &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Scroll Effect
+      </h1>
+
+      <!-- Masked Image Container -->
+      <div class="mask-img absolute h-[60vh] w-[90vw] md:w-[80vw] left-1/2 -translate-x-1/2">
+        <img class="background-img w-full h-full object-cover rounded-2xl scale-[0.8] md:scale-[0.9]" src="/image (2).jpg" alt="">
+      </div>      
+
+      <!-- Scroll Prompt Text -->
+      <p class="absolute bottom-10 text-xl sm:text-2xl md:text-3xl lg:text-4xl will-fade opacity-60">
+        Scroll down to see the effect
+      </p>
+
+      <!-- Bottom Text -->
+      <div class="absolute bottom-10 masked-container text-xl sm:text-2xl md:text-3xl lg:text-4xl opacity-0 p-2">
         <h1>Save the animals</h1>
       </div>
+
     </div>
 
     <script type="module" src="/src/main.js"></script>
+
   </body>
 </html>

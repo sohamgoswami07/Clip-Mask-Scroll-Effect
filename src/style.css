@@ -1,9 +1,32 @@
+/* Hurricane Static Font  */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+/* import Tailwind */
 @import "tailwindcss";
+
+body {
+  position: relative;
+  background-color: #000000;
+  width: 100vw;
+  height: auto;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .mask-img {
   mask-image: url('/clip\ \(2\).png');
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: cover;
-  mask-size: 25%;
+  mask-size: 20%;
+}
+
+@media (max-width: 768px) {
+  .mask-img {
+    mask-size: 50%;
+  }
 }
