@@ -28,9 +28,4 @@ document.addEventListener('DOMContentLoaded', () => {
     duration: 1,
     ease: "power1.inOut",
   })
-  .to(".masked-container", {
-    opacity: 0.75,
-    duration: 1,
-    ease: "power1.inOut",
-  })
 });

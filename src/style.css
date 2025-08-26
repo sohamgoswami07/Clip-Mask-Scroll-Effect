@@ -18,7 +18,7 @@ body {
 }
 
 .mask-img {
-  mask-image: url('/clip\ \(2\).png');
+  mask-image: url('/clip.png');
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: cover;
@@ -27,6 +27,12 @@ body {
 
 @media (max-width: 768px) {
   .mask-img {
-    mask-size: 50%;
+    mask-size: 35%;
+  }
+}
+
+@media (max-width: 320px) {
+  .mask-img {
+    mask-size: 60%;
   }
 }
