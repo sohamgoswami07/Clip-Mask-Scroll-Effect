@@ -5,13 +5,13 @@ As you scroll, a masked image **scales up** and reveals the full background whil
 
 ---
 
-## 🚀 Demo
-🔗 Live Site: [Clip Mask Scroll Effect](https://sohamgoswami07.github.io/Clip-Mask-Scroll-Effect/)
+## 📸 Preview
+<img width="1891" height="894" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/fc2bc0f5-8cce-4226-9521-2182c6cf433c" />
 
 ---
 
-## 📸 Preview
-
+## 🚀 Demo
+🔗 Live Site: [Clip Mask Scroll Effect](https://sohamgoswami07.github.io/Clip-Mask-Scroll-Effect/)
 
 ---
 
